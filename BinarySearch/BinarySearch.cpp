@@ -22,7 +22,18 @@ int BinarySearch(int n, int s[], int x)
 	}
 	return -1;
 }
-
+int recursionBS(int s[], int low, int high, int x)
+{
+	if (low > high)
+		return -1;
+	int mid = (low + high) / 2;
+	if (x == s[mid])
+		return mid;
+	else if (x < s[mid])
+		return recursionBS(s, low, mid - 1, x);
+	else
+		return recursionBS(s, mid + 1, high, x);
+}
 int main()
 {
 	cout << "该数列中的元素个数n为：";
@@ -40,7 +51,8 @@ int main()
 		cout << endl;
 		cout << "请输入要查找的元素：";
 		cin >> x;
-		i = BinarySearch(n, s, x);
+		//i = BinarySearch(n, s, x);
+		i = recursionBS(s, 0, n - 1, x);
 		if (i == -1)
 			cout << "该数列中没有要查找的元素" << endl;
 		else
