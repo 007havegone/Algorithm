@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\MergeSort.vcxproj", "{70AB23CD-627D-4063-8925-BA20AEFC8153}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSort", "QuickSort\QuickSort.vcxproj", "{440A8D8C-8DA8-4914-B127-43E937B35919}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x64.Build.0 = Release|x64
 		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x86.ActiveCfg = Release|Win32
 		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x86.Build.0 = Release|Win32
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Debug|x64.ActiveCfg = Debug|x64
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Debug|x64.Build.0 = Debug|x64
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Debug|x86.ActiveCfg = Debug|Win32
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Debug|x86.Build.0 = Debug|Win32
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Release|x64.ActiveCfg = Release|x64
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Release|x64.Build.0 = Release|x64
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Release|x86.ActiveCfg = Release|Win32
+		{440A8D8C-8DA8-4914-B127-43E937B35919}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
