@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kruskal", "Kruskal\Kruskal.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "BinarySearch\BinarySearch.vcxproj", "{9EE6D2EE-EB3E-4B4C-B92E-D188CF70DB5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\MergeSort.vcxproj", "{70AB23CD-627D-4063-8925-BA20AEFC8153}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{9EE6D2EE-EB3E-4B4C-B92E-D188CF70DB5D}.Release|x64.Build.0 = Release|x64
 		{9EE6D2EE-EB3E-4B4C-B92E-D188CF70DB5D}.Release|x86.ActiveCfg = Release|Win32
 		{9EE6D2EE-EB3E-4B4C-B92E-D188CF70DB5D}.Release|x86.Build.0 = Release|Win32
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Debug|x64.ActiveCfg = Debug|x64
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Debug|x64.Build.0 = Debug|x64
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Debug|x86.ActiveCfg = Debug|Win32
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Debug|x86.Build.0 = Debug|Win32
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x64.ActiveCfg = Release|x64
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x64.Build.0 = Release|x64
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x86.ActiveCfg = Release|Win32
+		{70AB23CD-627D-4063-8925-BA20AEFC8153}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
