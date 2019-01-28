@@ -18,7 +18,7 @@
     <ClCompile Include="Kruskal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Union_findset realize.cpp">
+    <ClCompile Include="Disjoint realize.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

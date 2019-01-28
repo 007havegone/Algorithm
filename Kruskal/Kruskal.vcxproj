@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Kruskal.cpp" />
-    <ClCompile Include="Union_findset realize.cpp" />
+    <ClCompile Include="Disjoint realize.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Input.txt" />
