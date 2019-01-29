@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Large num Multiply", "Large
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse-Linked-list", "Reverse-Linked-list\Reverse-Linked-list.vcxproj", "{E4A58C34-B2D7-4153-A732-BF572B0F2078}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap Nodes in Pairs", "Swap Nodes in Pairs\Swap Nodes in Pairs.vcxproj", "{A5D3F42B-4722-489A-A316-62F5D57176FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{E4A58C34-B2D7-4153-A732-BF572B0F2078}.Release|x64.Build.0 = Release|x64
 		{E4A58C34-B2D7-4153-A732-BF572B0F2078}.Release|x86.ActiveCfg = Release|Win32
 		{E4A58C34-B2D7-4153-A732-BF572B0F2078}.Release|x86.Build.0 = Release|Win32
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Debug|x64.ActiveCfg = Debug|x64
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Debug|x64.Build.0 = Debug|x64
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Debug|x86.Build.0 = Debug|Win32
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Release|x64.ActiveCfg = Release|x64
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Release|x64.Build.0 = Release|x64
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Release|x86.ActiveCfg = Release|Win32
+		{A5D3F42B-4722-489A-A316-62F5D57176FA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
