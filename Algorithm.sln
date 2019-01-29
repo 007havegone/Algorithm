@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap Nodes in Pairs", "Swap
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked List Circle", "Linked List Circle\Linked List Circle.vcxproj", "{1C735C36-1B72-45A8-967D-AB3041AE1921}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find the Median", "Find the Median\Find the Median.vcxproj", "{1EAAFF95-2167-42A8-9361-1B640888B1E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{1C735C36-1B72-45A8-967D-AB3041AE1921}.Release|x64.Build.0 = Release|x64
 		{1C735C36-1B72-45A8-967D-AB3041AE1921}.Release|x86.ActiveCfg = Release|Win32
 		{1C735C36-1B72-45A8-967D-AB3041AE1921}.Release|x86.Build.0 = Release|Win32
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Debug|x64.ActiveCfg = Debug|x64
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Debug|x64.Build.0 = Debug|x64
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Debug|x86.Build.0 = Debug|Win32
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Release|x64.ActiveCfg = Release|x64
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Release|x64.Build.0 = Release|x64
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Release|x86.ActiveCfg = Release|Win32
+		{1EAAFF95-2167-42A8-9361-1B640888B1E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
