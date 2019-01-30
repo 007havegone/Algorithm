@@ -29,6 +29,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find the Median", "Find the
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked List Cycle Ⅱ", "Linked List Cycle Ⅱ\Linked List Cycle Ⅱ.vcxproj", "{3E98FC87-50DB-4379-AF2B-78022D0A4ED0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCS problem(longest common subsequence)", "LCS problem(longest common subsequence)\LCS problem(longest common subsequence).vcxproj", "{E4E66D29-8917-4851-9C22-4786985E9CC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Levenshtein Distance(编辑距离)", "Levenshtein Distance(编辑距离)\Levenshtein Distance(编辑距离).vcxproj", "{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +145,22 @@ Global
 		{3E98FC87-50DB-4379-AF2B-78022D0A4ED0}.Release|x64.Build.0 = Release|x64
 		{3E98FC87-50DB-4379-AF2B-78022D0A4ED0}.Release|x86.ActiveCfg = Release|Win32
 		{3E98FC87-50DB-4379-AF2B-78022D0A4ED0}.Release|x86.Build.0 = Release|Win32
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Debug|x64.ActiveCfg = Debug|x64
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Debug|x64.Build.0 = Debug|x64
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Debug|x86.Build.0 = Debug|Win32
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Release|x64.ActiveCfg = Release|x64
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Release|x64.Build.0 = Release|x64
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Release|x86.ActiveCfg = Release|Win32
+		{E4E66D29-8917-4851-9C22-4786985E9CC1}.Release|x86.Build.0 = Release|Win32
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Debug|x64.ActiveCfg = Debug|x64
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Debug|x64.Build.0 = Debug|x64
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Debug|x86.Build.0 = Debug|Win32
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x64.ActiveCfg = Release|x64
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x64.Build.0 = Release|x64
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x86.ActiveCfg = Release|Win32
+		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
