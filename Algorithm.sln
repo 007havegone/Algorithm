@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCS problem(longest common 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Levenshtein Distance(编辑距离)", "Levenshtein Distance(编辑距离)\Levenshtein Distance(编辑距离).vcxproj", "{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rent boat using the least cost", "Rent boat using the least cost\Rent boat using the least cost.vcxproj", "{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x64.Build.0 = Release|x64
 		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x86.ActiveCfg = Release|Win32
 		{69F11BF8-AE27-429D-AF9F-C259CE0E4FEC}.Release|x86.Build.0 = Release|Win32
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Debug|x64.ActiveCfg = Debug|x64
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Debug|x64.Build.0 = Debug|x64
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Debug|x86.ActiveCfg = Debug|Win32
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Debug|x86.Build.0 = Debug|Win32
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Release|x64.ActiveCfg = Release|x64
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Release|x64.Build.0 = Release|x64
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Release|x86.ActiveCfg = Release|Win32
+		{AABE5E4D-7AA0-46A4-BF1F-958079F5C322}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
