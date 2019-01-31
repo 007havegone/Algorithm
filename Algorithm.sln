@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rotate List", "Rotate List\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique Paths", "Unique Paths\Unique Paths.vcxproj", "{A1E68927-3E90-44ED-A04C-A83663F7025C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique Paths Ⅱ", "Unique Paths Ⅱ\Unique Paths Ⅱ.vcxproj", "{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{A1E68927-3E90-44ED-A04C-A83663F7025C}.Release|x64.Build.0 = Release|x64
 		{A1E68927-3E90-44ED-A04C-A83663F7025C}.Release|x86.ActiveCfg = Release|Win32
 		{A1E68927-3E90-44ED-A04C-A83663F7025C}.Release|x86.Build.0 = Release|Win32
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Debug|x64.ActiveCfg = Debug|x64
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Debug|x64.Build.0 = Debug|x64
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Debug|x86.Build.0 = Debug|Win32
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x64.ActiveCfg = Release|x64
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x64.Build.0 = Release|x64
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x86.ActiveCfg = Release|Win32
+		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
