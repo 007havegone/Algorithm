@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique Paths", "Unique Path
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unique Paths Ⅱ", "Unique Paths Ⅱ\Unique Paths Ⅱ.vcxproj", "{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minumum Path Sum", "Minumum Path Sum\Minumum Path Sum.vcxproj", "{D3632C07-0026-4DF1-9700-7A1E9776F86D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x64.Build.0 = Release|x64
 		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x86.ActiveCfg = Release|Win32
 		{BE895E01-D9B2-423F-A353-0C5AE1D40C0A}.Release|x86.Build.0 = Release|Win32
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Debug|x64.ActiveCfg = Debug|x64
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Debug|x64.Build.0 = Debug|x64
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Debug|x86.Build.0 = Debug|Win32
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Release|x64.ActiveCfg = Release|x64
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Release|x64.Build.0 = Release|x64
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Release|x86.ActiveCfg = Release|Win32
+		{D3632C07-0026-4DF1-9700-7A1E9776F86D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
