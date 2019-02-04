@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "石子合并", "石子合�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "石子合并优化", "石子合并优化\石子合并优化.vcxproj", "{ACEFFD7D-2E48-4446-AC58-D60BBDCD445A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题", "0-1背包问题\0-1背包问题.vcxproj", "{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{ACEFFD7D-2E48-4446-AC58-D60BBDCD445A}.Release|x64.Build.0 = Release|x64
 		{ACEFFD7D-2E48-4446-AC58-D60BBDCD445A}.Release|x86.ActiveCfg = Release|Win32
 		{ACEFFD7D-2E48-4446-AC58-D60BBDCD445A}.Release|x86.Build.0 = Release|Win32
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Debug|x64.ActiveCfg = Debug|x64
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Debug|x64.Build.0 = Debug|x64
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Debug|x86.ActiveCfg = Debug|Win32
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Debug|x86.Build.0 = Debug|Win32
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Release|x64.ActiveCfg = Release|x64
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Release|x64.Build.0 = Release|x64
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Release|x86.ActiveCfg = Release|Win32
+		{49CF7ECD-2EF0-4B2D-AFCA-BD788A762404}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
