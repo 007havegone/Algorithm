@@ -1,3 +1,7 @@
+/*
+	时间复杂度O（W*n）,W为背包容量
+	空间复杂度为(W*n)
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
