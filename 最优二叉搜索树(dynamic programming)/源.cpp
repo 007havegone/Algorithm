@@ -85,12 +85,16 @@ void Construct_Optimal_BST(int i, int j, bool flag) {
 //广度遍历(层序遍历)
 void Construct_Optimal_BST(int i, int j) {
 	queue<pair<int, int>> que;
-	int flag = 0;
+	int flag = 1;
 	que.push(make_pair(i, j));
 	while (!que.empty()) {
 		auto t = que.front();
 		que.pop();
 		int k = s[t.first][t.second];
+		if (flag) {
+			cout << "S" << k << "is the root " << endl;
+			flag = 0;
+		}
 		if (k - 1 < t.first)
 			cout << "e" << k - 1 << " is the left child of " << "S" << k << endl;
 		else {
@@ -117,7 +121,7 @@ int main() {
 	optimal_BST(n);
 	cout << c[1][n] << endl;
 
-	Construct_Optimal_BST(1, n, false);
-	//Construct_Optimal_BST(1, n);
+	//Construct_Optimal_BST(1, n, false);
+	Construct_Optimal_BST(1, n);
 	return 0;
 }
