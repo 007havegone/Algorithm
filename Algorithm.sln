@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题", "0-1背�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题优化", "0-1背包问题优化\0-1背包问题优化.vcxproj", "{FE5B99D3-F6AD-4498-81C0-CF602D9C7A1F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题递归方法、记忆化搜索(备忘录方法)", "0-1背包问题递归方法、记忆化搜索(备忘录方法)\0-1背包问题递归方法、记忆化搜索(备忘录方法).vcxproj", "{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{FE5B99D3-F6AD-4498-81C0-CF602D9C7A1F}.Release|x64.Build.0 = Release|x64
 		{FE5B99D3-F6AD-4498-81C0-CF602D9C7A1F}.Release|x86.ActiveCfg = Release|Win32
 		{FE5B99D3-F6AD-4498-81C0-CF602D9C7A1F}.Release|x86.Build.0 = Release|Win32
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Debug|x64.ActiveCfg = Debug|x64
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Debug|x64.Build.0 = Debug|x64
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Debug|x86.Build.0 = Debug|Win32
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Release|x64.ActiveCfg = Release|x64
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Release|x64.Build.0 = Release|x64
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Release|x86.ActiveCfg = Release|Win32
+		{2909D51F-B044-454C-A5E4-3DD82A2EFBA1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
