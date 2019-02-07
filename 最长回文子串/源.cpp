@@ -40,10 +40,10 @@ public:
 			}
 		}
 	}
+	
 };
 int main() {
 
 	Solution s;
-	cout << s.longestPalindrome("adam");
-
+	cout << s.longestPalindrome("adam") << endl;
 }
