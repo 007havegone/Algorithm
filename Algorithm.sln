@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长回文子串", "最�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题(回溯法)", "0-1背包问题(回溯法)\0-1背包问题(回溯法).vcxproj", "{4B40D298-12A5-4D31-803F-AA3F3882555E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题优化(回溯法)", "0-1背包问题优化(回溯法)\0-1背包问题优化(回溯法).vcxproj", "{18F66EDC-F106-434E-93A3-68702F472856}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{4B40D298-12A5-4D31-803F-AA3F3882555E}.Release|x64.Build.0 = Release|x64
 		{4B40D298-12A5-4D31-803F-AA3F3882555E}.Release|x86.ActiveCfg = Release|Win32
 		{4B40D298-12A5-4D31-803F-AA3F3882555E}.Release|x86.Build.0 = Release|Win32
+		{18F66EDC-F106-434E-93A3-68702F472856}.Debug|x64.ActiveCfg = Debug|x64
+		{18F66EDC-F106-434E-93A3-68702F472856}.Debug|x64.Build.0 = Debug|x64
+		{18F66EDC-F106-434E-93A3-68702F472856}.Debug|x86.ActiveCfg = Debug|Win32
+		{18F66EDC-F106-434E-93A3-68702F472856}.Debug|x86.Build.0 = Debug|Win32
+		{18F66EDC-F106-434E-93A3-68702F472856}.Release|x64.ActiveCfg = Release|x64
+		{18F66EDC-F106-434E-93A3-68702F472856}.Release|x64.Build.0 = Release|x64
+		{18F66EDC-F106-434E-93A3-68702F472856}.Release|x86.ActiveCfg = Release|Win32
+		{18F66EDC-F106-434E-93A3-68702F472856}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
