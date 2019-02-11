@@ -9,6 +9,7 @@ int x[MX], bestX[MX];//x[i]表示第i次加工第x[i]个零件，bestX[i]记录最优解
 struct Time
 {
 	int x;//第一台机器加工时间
+
 	int y;//第二台机器加工时间
 }T[MX];
 

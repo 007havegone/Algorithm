@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "全排列实现(回溯法)"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最优加工顺序(回溯法)", "最优加工顺序(回溯法)\最优加工顺序(回溯法).vcxproj", "{3A92824B-A08F-446A-8EFD-2A79BC1F80E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旅行商问题(回溯法)", "旅行商问题(回溯法)\旅行商问题(回溯法).vcxproj", "{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -381,6 +383,14 @@ Global
 		{3A92824B-A08F-446A-8EFD-2A79BC1F80E7}.Release|x64.Build.0 = Release|x64
 		{3A92824B-A08F-446A-8EFD-2A79BC1F80E7}.Release|x86.ActiveCfg = Release|Win32
 		{3A92824B-A08F-446A-8EFD-2A79BC1F80E7}.Release|x86.Build.0 = Release|Win32
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Debug|x64.ActiveCfg = Debug|x64
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Debug|x64.Build.0 = Debug|x64
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Debug|x86.ActiveCfg = Debug|Win32
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Debug|x86.Build.0 = Debug|Win32
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Release|x64.ActiveCfg = Release|x64
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Release|x64.Build.0 = Release|x64
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Release|x86.ActiveCfg = Release|Win32
+		{98DD913F-ED5E-4DED-B876-D9C12DF7B76E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
