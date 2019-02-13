@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Just a Hook(线段树)", "J
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A Simple Problem with Integers(线段树)", "A Simple Problem with Integers(线段树)\A Simple Problem with Integers(线段树).vcxproj", "{BE2D9E64-DB5D-4481-A9C6-815FE3A6ADBE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线段树", "线段树\线段树.vcxproj", "{926670FB-F217-4AF9-BE15-18656B7DABFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{BE2D9E64-DB5D-4481-A9C6-815FE3A6ADBE}.Release|x64.Build.0 = Release|x64
 		{BE2D9E64-DB5D-4481-A9C6-815FE3A6ADBE}.Release|x86.ActiveCfg = Release|Win32
 		{BE2D9E64-DB5D-4481-A9C6-815FE3A6ADBE}.Release|x86.Build.0 = Release|Win32
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Debug|x64.ActiveCfg = Debug|x64
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Debug|x64.Build.0 = Debug|x64
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Debug|x86.Build.0 = Debug|Win32
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Release|x64.ActiveCfg = Release|x64
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Release|x64.Build.0 = Release|x64
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Release|x86.ActiveCfg = Release|Win32
+		{926670FB-F217-4AF9-BE15-18656B7DABFB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
