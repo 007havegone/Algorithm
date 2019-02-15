@@ -1,5 +1,34 @@
 #include <iostream>
+#include <vector>
+#include <functional>
 using namespace std;
+//c++ oj”≈ªØ
+class Solution {
+private:
+	int fact(int n) {
+		int ans = 1;
+		for (int i = 1; i <= n; ++i) ans *= i;
+		return ans;
+	}
+public:
+	vector<vector<int>> permute(vector<int>& nums) {
+		const int n = nums.size();
+		vector<vector<int>> ans;
+		ans.reserve(fact(n));
+
+		std::function<void(vector<int>&, int)> permutation =
+			[&ans, n, &permutation](vector<int>& nums, int k) {
+			if (k == n - 1) ans.push_back(nums);
+			for (int i = k; i < n; ++i) {
+				std::swap(nums[k], nums[i]);
+				permutation(nums, k + 1);
+				std::swap(nums[k], nums[i]);
+			}
+		};
+		permutation(nums, 0);
+		return ans;
+	}
+};
 const int N = 10;
 int n;
 int cnt = 0;
