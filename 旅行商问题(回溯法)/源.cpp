@@ -30,6 +30,7 @@ void BackTrack(int t) {
 	}
 	for (int i = t; i <= n; i++) {
 		if (mp[x[t-1]][x[i]] != INF && cl + mp[x[t - 1]][x[i]] < bestl) {//约束条件
+			//保存第t个要去的点到x[t]中
 			swap(x[t], x[i]);
 			cl += mp[x[t-1]][x[t]];
 			BackTrack(t + 1);
