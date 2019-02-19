@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP及其优化", "KMP及�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旅行商问题（动态规划）", "旅行商问题（动态规划）\旅行商问题（动态规划）.vcxproj", "{04DB59E8-102A-4EC8-89EE-62E9959FBA3F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最优加工顺序(贝尔曼规则)", "最优加工顺序(贝尔曼规则)\最优加工顺序(贝尔曼规则).vcxproj", "{160FE136-2D6D-45EF-B62B-7B5281C57CAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -451,6 +453,14 @@ Global
 		{04DB59E8-102A-4EC8-89EE-62E9959FBA3F}.Release|x64.Build.0 = Release|x64
 		{04DB59E8-102A-4EC8-89EE-62E9959FBA3F}.Release|x86.ActiveCfg = Release|Win32
 		{04DB59E8-102A-4EC8-89EE-62E9959FBA3F}.Release|x86.Build.0 = Release|Win32
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Debug|x64.ActiveCfg = Debug|x64
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Debug|x64.Build.0 = Debug|x64
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Debug|x86.Build.0 = Debug|Win32
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x64.ActiveCfg = Release|x64
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x64.Build.0 = Release|x64
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x86.ActiveCfg = Release|Win32
+		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
