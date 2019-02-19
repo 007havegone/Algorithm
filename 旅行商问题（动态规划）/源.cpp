@@ -3,62 +3,53 @@
 #include<cstdlib>
 #include<algorithm>
 using namespace std;
-const int M = 1 << 13;//8192
+const int M = 1 << 13;
 #define INF 0x3f3f3f3f
 int dp[M + 2][20];//dp[i][j] 表示第i个状态，到达第j个城市的最短路径
 int g[15][15];			//从0开始存储
-int path[M + 2][15];    //最优路径，path[i][j]即i到j的最优解点
+int path[M + 2][15];    //最优路径，path[i][j]即经过{a,b,c,d,...}到j的最优解点
 int n, m;              //n个城市，m条路
 int bestl;            //最短路径长度
 int sx, S;
 /*
 	时间复杂度 O(2^n*n^2) 空间复杂度 O(2^n)
 */
-void Init()           //初始化
-{
-	memset(dp, INF, sizeof(dp));
+
+void Init() {
+	sx = 0;
+	bestl = INF;
 	memset(path, 0, sizeof(path));
 	memset(g, INF, sizeof(g));
-	bestl = INF;
+	memset(dp, INF, sizeof(dp));
 }
-void Traveling()//计算dp[i][j]
-{
-	dp[1][0] = 0;
-	S = 1 << n;// S=2^n
-	for (int i = 0; i < S; i++)
-	{
-		for (int j = 0; j < n; j++)
-		{
-			if (!(i&(1 << j))) continue;
-			for (int k = 0; k < n; k++)
-			{
-				if (i&(1 << k)) continue;
-				if (dp[i | (1 << k)][k] > dp[i][j] + g[j][k])
-				{
-					dp[i | (1 << k)][k] = dp[i][j] + g[j][k];
-					path[i | (1 << k)][k] = j;
+void Traveling() {
+	dp[1][0] = 0;//设置1出发到达1的距离为0，起点为1，其他保持INF
+	S = 1 << n;
+	for (int i = 0; i < S; i++) {//遍历所有状态
+		for (int j = 0; j < n; j++) {//寻找中介点
+			if (!i&(1 << j))continue;
+			for (int k = 0; k < n; k++) {//寻找终点
+				if (i&(1 << k))continue;
+				if (dp[i|(1 << k)][k] > dp[i][j] + g[j][k]) {
+					dp[i|(1 << k)][k] = dp[i][j] + g[j][k];
+					path[i|(1 << k)][k] = j;//设置最优解为j
 				}
 			}
 		}
 	}
-	for (int i = 0; i < n; i++)    //查找最短路径长度
-	{
-		if (bestl > dp[S - 1][i] + g[i][0])
-		{
+	for (int i = 0; i < n; i++) {
+		if (bestl > dp[S - 1][i] + g[i][0]) {
 			bestl = dp[S - 1][i] + g[i][0];
-			sx = i;
+			sx = i;//记录S的终点
 		}
 	}
 }
-void print(int S, int value)    //打印路径
-{
-	if (!S)  return;
-	for (int i = 0; i < n; i++)
-	{
-		if (dp[S][i] == value)
-		{
-			print(S ^ (1 << i), value - g[i][path[S][i]]);
-			cout << i + 1 << "--->";
+void print(int S, int val) {
+	if (!S)return;//没有距离了
+	for (int i = 0; i < n; i++) {
+		if (dp[S][i] == val) {
+			print(S ^ (1 << i), val - g[i][path[S][i]]);//递归调用，取出S-i的最优解
+			cout << i+1 << "--->";
 			break;
 		}
 	}
