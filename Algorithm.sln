@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旅行商问题（动态规
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最优加工顺序(贝尔曼规则)", "最优加工顺序(贝尔曼规则)\最优加工顺序(贝尔曼规则).vcxproj", "{160FE136-2D6D-45EF-B62B-7B5281C57CAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-1背包问题(分支限界法)", "0-1背包问题(分支限界法)\0-1背包问题(分支限界法).vcxproj", "{9438D2CF-A662-40C8-BBEA-8922BD5962E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -461,6 +463,14 @@ Global
 		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x64.Build.0 = Release|x64
 		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x86.ActiveCfg = Release|Win32
 		{160FE136-2D6D-45EF-B62B-7B5281C57CAA}.Release|x86.Build.0 = Release|Win32
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Debug|x64.ActiveCfg = Debug|x64
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Debug|x64.Build.0 = Debug|x64
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Debug|x86.Build.0 = Debug|Win32
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Release|x64.ActiveCfg = Release|x64
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Release|x64.Build.0 = Release|x64
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Release|x86.ActiveCfg = Release|Win32
+		{9438D2CF-A662-40C8-BBEA-8922BD5962E2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
