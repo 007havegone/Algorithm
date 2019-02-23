@@ -17,9 +17,9 @@ rotate 4 steps to the right: 2->0->1->NULL
 //  Definition for singly-linked list.
 #include <iostream>
   struct ListNode {
-      int val;
-      ListNode *next;
-      ListNode(int x) : val(x), next(NULL) {}
+	  int val;
+	  ListNode *next;
+	  ListNode(int x) : val(x), next(NULL) {}
   };
 class Solution {
 public:
