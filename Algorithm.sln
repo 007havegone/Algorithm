@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旅行商问题优化(分�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "铺设电缆(BFS分支限界法最短路径)", "铺设电缆(BFS分支限界法最短路径)\铺设电缆(BFS分支限界法最短路径).vcxproj", "{1666795F-4497-4D67-8203-206E2CBEA980}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工厂最大收益(线性规划单纯形算法)", "工厂最大收益(线性规划单纯形算法)\工厂最大收益(线性规划单纯形算法).vcxproj", "{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{1666795F-4497-4D67-8203-206E2CBEA980}.Release|x64.Build.0 = Release|x64
 		{1666795F-4497-4D67-8203-206E2CBEA980}.Release|x86.ActiveCfg = Release|Win32
 		{1666795F-4497-4D67-8203-206E2CBEA980}.Release|x86.Build.0 = Release|Win32
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Debug|x64.ActiveCfg = Debug|x64
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Debug|x64.Build.0 = Debug|x64
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Debug|x86.Build.0 = Debug|Win32
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Release|x64.ActiveCfg = Release|x64
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Release|x64.Build.0 = Release|x64
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Release|x86.ActiveCfg = Release|Win32
+		{B5F4C038-9FFB-4FE9-8F01-EB5941C8B7D5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

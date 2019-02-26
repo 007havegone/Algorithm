@@ -92,7 +92,7 @@ void Construct_Optimal_BST(int i, int j) {
 		que.pop();
 		int k = s[t.first][t.second];
 		if (flag) {
-			cout << "S" << k << "is the root " << endl;
+			cout << "S" << k << " is the root " << endl;
 			flag = 0;
 		}
 		if (k - 1 < t.first)
