@@ -2,6 +2,10 @@
 #include <algorithm>
 #include <iomanip>
 #include <cmath>
+/*
+	时间复杂度为O(2^n)
+	空间复杂度为O(1)
+*/
 using namespace std;
 const int N = 100;
 const double INF = 1e8;
@@ -34,7 +38,7 @@ void DCXA() {
 	int k = -1;
 	float min;//用于找离基行
 	//循环直到问题的最优解或无解
-	while (true) {
+	while (true) {//最多进行2^n次迭代，复杂度为O(2^n)，每次O(m*n)
 		max1 = 0;
 		max2 = 0;
 		min = INF;
