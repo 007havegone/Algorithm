@@ -10,8 +10,8 @@ using namespace std;
 const int N = 100;
 const double INF = 1e8;
 float kernel[N][N];//存储非单纯性表
-char FJL[N] = {};//非基本变量下标
-char JL[N] = {};//基本变量下标
+char FJL[N] = {};//非基本变量
+char JL[N] = {};//基本变量
 int n, m, i, j;
 void print() {//打印单纯形表
 	cout << endl;
