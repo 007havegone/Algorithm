@@ -45,6 +45,11 @@ bool bfs(int s,int t) {//广度优先寻找可增广路
 	}
 	return false;//找不到可增广路
 }
+/*
+	V为结点,E为边
+	可证可增广路共O(VE),采用bfs获取可增广路的为O(E)
+	故时间复杂度为(V*E^2)
+*/
 //最短增广路算法 (Edmonds-Karp算法、Shortest Argumemt Path、SAP算法）
 int EK(int s, int t) {
 	int u, v, d, maxflow;
