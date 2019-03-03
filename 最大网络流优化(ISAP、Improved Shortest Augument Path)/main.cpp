@@ -97,8 +97,8 @@ int ISAP(int s, int t, int n) {//Improved Shortest
 			}
 		}
 		if (i == -1) {//找不到可行邻边，无法前进
-			if (g[h[u]] == 1)//该高度的结点只有一个结束
-				break;
+			if (--g[h[u]] == 0)//该点高度要更改，原高度数量-1
+				break;//该高度的结点只有一个结束
 			int hmin = n - 1;
 			for (int j = V[u].first; ~j; j = E[j].next)
 				if (E[j].cap > E[j].flow)
