@@ -106,7 +106,7 @@ int ISAP(int s, int t, int n) {//Improved Shortest
 			h[u] = hmin + 1;//更新高度
 			g[h[u]]++;
 			if (u != s)//不是起始点，回退到上一个点
-				u = E[pre[u] ^ 1].v;
+				u = E[pre[u] ^ 1].v;//前驱边+1即为反向边，终点即前驱点
 			cout << "重新标高后高度:" << endl;
 			cout << "h[]= ";
 			for (int i = 1; i <= n; i++)

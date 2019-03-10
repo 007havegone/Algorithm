@@ -109,6 +109,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最大网络流(最短增�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最大网络流优化(ISAP、Improved Shortest Augument Path)", "最大网络流优化(ISAP、Improved Shortest Augument Path)\最大网络流优化(ISAP、Improved Shortest Augument Path).vcxproj", "{DB91AE6C-99B9-451C-8823-25C1F55E53C8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最小费用最大流(最小费用路算法)", "最小费用最大流(最小费用路算法)\最小费用最大流(最小费用路算法).vcxproj", "{3258A151-737F-4CF1-AB67-49C0D3CE682B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -541,6 +543,14 @@ Global
 		{DB91AE6C-99B9-451C-8823-25C1F55E53C8}.Release|x64.Build.0 = Release|x64
 		{DB91AE6C-99B9-451C-8823-25C1F55E53C8}.Release|x86.ActiveCfg = Release|Win32
 		{DB91AE6C-99B9-451C-8823-25C1F55E53C8}.Release|x86.Build.0 = Release|Win32
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Debug|x64.ActiveCfg = Debug|x64
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Debug|x64.Build.0 = Debug|x64
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Debug|x86.Build.0 = Debug|Win32
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Release|x64.ActiveCfg = Release|x64
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Release|x64.Build.0 = Release|x64
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Release|x86.ActiveCfg = Release|Win32
+		{3258A151-737F-4CF1-AB67-49C0D3CE682B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
