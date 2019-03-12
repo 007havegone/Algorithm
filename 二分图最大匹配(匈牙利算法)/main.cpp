@@ -43,6 +43,10 @@ void print(int n) {
 		if (match[i])
 			cout << i << "--" << match[i] << endl;
 }
+
+void print(int m, int n) {
+
+}
 /*
 	匈牙利算法
 	找一条增广路的复杂度最坏为O(E),最多找V条增广路，时间复杂度为O(VE)
@@ -84,4 +88,5 @@ int main() {
 	}
 	cout << "最大匹配数:" << num << endl;
 	print(m);
+	return 0;
 }
