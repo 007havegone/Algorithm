@@ -117,6 +117,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分图最大匹配(匈�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二分图多重匹配问题(圆桌会议问题，ISAP算法)", "二分图多重匹配问题(圆桌会议问题，ISAP算法)\二分图多重匹配问题(圆桌会议问题，ISAP算法).vcxproj", "{3A3D21E6-9366-412A-83BB-A768F822A54E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "考试库问题(ISAP算法)", "考试库问题(ISAP算法)\考试库问题(ISAP算法).vcxproj", "{F76426D8-6074-458E-A6A6-ABBF4D920611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -581,6 +583,14 @@ Global
 		{3A3D21E6-9366-412A-83BB-A768F822A54E}.Release|x64.Build.0 = Release|x64
 		{3A3D21E6-9366-412A-83BB-A768F822A54E}.Release|x86.ActiveCfg = Release|Win32
 		{3A3D21E6-9366-412A-83BB-A768F822A54E}.Release|x86.Build.0 = Release|Win32
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Debug|x64.ActiveCfg = Debug|x64
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Debug|x64.Build.0 = Debug|x64
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Debug|x86.ActiveCfg = Debug|Win32
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Debug|x86.Build.0 = Debug|Win32
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Release|x64.ActiveCfg = Release|x64
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Release|x64.Build.0 = Release|x64
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Release|x86.ActiveCfg = Release|Win32
+		{F76426D8-6074-458E-A6A6-ABBF4D920611}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

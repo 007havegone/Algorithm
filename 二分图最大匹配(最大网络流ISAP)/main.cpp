@@ -40,7 +40,7 @@ void add(int u, int v, int c) {
 	addEdge(v, u, 0);
 }
 /*初始化结点高度*/
-void set_h(int s,int t,int n) {
+void set_h(int t,int n) {
 	queue<int> Q;
 	memset(h, -1, sizeof(h));
 	memset(g, 0, sizeof(g));
@@ -66,10 +66,9 @@ void set_h(int s,int t,int n) {
 }
 //s为起点，t为终点，n为结点数
 int ISAP(int s, int t, int n) {
-	queue<int> Q;
 	int u, v, d;
 	int i, j, maxflow=0;
-	set_h(s, t, n-1);//初始化高度
+	set_h(t, n-1);//初始化高度
 	u = s;//当前工作结点
 	while (h[s]<n)
 	{
@@ -103,10 +102,10 @@ int ISAP(int s, int t, int n) {
 				break;
 			//初始高度为结点数-1
 			int minh = n - 1;
-			for (j = V[i].first; ~j; j = E[j].next) {
+			for (j = V[u].first; ~j; j = E[j].next) {
 				v = E[j].v;
 				if (E[j].cap > E[j].flow)
-					minh = (minh, h[v]);
+					minh = min(minh, h[v]);
 			}
 			h[u] = minh+1;
 			cout << "重贴标签后的高度" << endl;
