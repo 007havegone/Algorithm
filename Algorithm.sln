@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最大收益问题(最大�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "方格取数问题(ISAP算法+最大流最小割定理)", "方格取数问题(ISAP算法+最大流最小割定理)\方格取数问题(ISAP算法+最大流最小割定理).vcxproj", "{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旅游路线问题(MCMF最小费用最大流)", "旅游路线问题(MCMF最小费用最大流)\旅游路线问题(MCMF最小费用最大流).vcxproj", "{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x64.Build.0 = Release|x64
 		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x86.ActiveCfg = Release|Win32
 		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x86.Build.0 = Release|Win32
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Debug|x64.ActiveCfg = Debug|x64
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Debug|x64.Build.0 = Debug|x64
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Debug|x86.Build.0 = Debug|Win32
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Release|x64.ActiveCfg = Release|x64
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Release|x64.Build.0 = Release|x64
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Release|x86.ActiveCfg = Release|Win32
+		{0C7847B3-B738-4F1B-87B5-7B9E5BBDEEC0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

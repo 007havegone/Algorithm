@@ -1,0 +1,20 @@
+8 10
+Zhengzhou
+Luoyang
+Xian
+Chengdu
+Kangding
+Xianggelila
+Motuo
+Lasa
+
+Zhengzhou Luoyang
+Zhengzhou Xian
+Luoyang Xian
+Luoyang Chengdu
+Xian Chengdu
+Xian Xianggelila
+Chengdu Lasa
+Kangding Motuo
+Xianggelila Lasa
+Motuo Lasa
