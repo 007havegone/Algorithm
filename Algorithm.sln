@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "考试库问题(ISAP算法)
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最大收益问题(最大网络流ISAP+最小割问题)", "最大收益问题(最大网络流ISAP+最小割问题)\最大收益问题(最大网络流ISAP+最小割问题).vcxproj", "{88588E6F-3F56-45C8-8DF6-6FDE47127111}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "方格取数问题(ISAP算法+最大流最小割定理)", "方格取数问题(ISAP算法+最大流最小割定理)\方格取数问题(ISAP算法+最大流最小割定理).vcxproj", "{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -601,6 +603,14 @@ Global
 		{88588E6F-3F56-45C8-8DF6-6FDE47127111}.Release|x64.Build.0 = Release|x64
 		{88588E6F-3F56-45C8-8DF6-6FDE47127111}.Release|x86.ActiveCfg = Release|Win32
 		{88588E6F-3F56-45C8-8DF6-6FDE47127111}.Release|x86.Build.0 = Release|Win32
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Debug|x64.ActiveCfg = Debug|x64
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Debug|x64.Build.0 = Debug|x64
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Debug|x86.Build.0 = Debug|Win32
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x64.ActiveCfg = Release|x64
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x64.Build.0 = Release|x64
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x86.ActiveCfg = Release|Win32
+		{29A2FD74-9DAF-4AC0-9D65-EC25DC521BDA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
