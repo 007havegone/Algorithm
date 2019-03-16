@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多源起点最短路径(Di
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多源起点最短路径(SPFA算法)", "多源起点最短路径(SPFA算法)\多源起点最短路径(SPFA算法).vcxproj", "{9508C226-D5A5-45FA-B122-AF40209EEAEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断是否有负环(Floyd算法)", "判断是否有负环(Floyd算法)\判断是否有负环(Floyd算法).vcxproj", "{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{9508C226-D5A5-45FA-B122-AF40209EEAEC}.Release|x64.Build.0 = Release|x64
 		{9508C226-D5A5-45FA-B122-AF40209EEAEC}.Release|x86.ActiveCfg = Release|Win32
 		{9508C226-D5A5-45FA-B122-AF40209EEAEC}.Release|x86.Build.0 = Release|Win32
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Debug|x64.ActiveCfg = Debug|x64
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Debug|x64.Build.0 = Debug|x64
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Debug|x86.Build.0 = Debug|Win32
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Release|x64.ActiveCfg = Release|x64
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Release|x64.Build.0 = Release|x64
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Release|x86.ActiveCfg = Release|Win32
+		{285B1AC1-B99A-4774-A044-AE12F8D4D9AF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
