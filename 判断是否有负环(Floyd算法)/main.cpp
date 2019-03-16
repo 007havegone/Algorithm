@@ -1,4 +1,6 @@
-#include<iostream>
+#include <iostream>
+#include <cstring>
+#include <cstdio>
 /*
 	http://poj.org/problem?id=3259
 
