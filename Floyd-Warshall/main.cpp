@@ -25,15 +25,19 @@ int main() {
 	cin >> n;
 	for (int i = 1; i <= n; i++)
 		for (int j = 1; j <= n; j++) {
-			g[i][j] = INF;
+			if (i == j)
+				g[i][j] = 0;
+			else
+				g[i][j] = INF;
 		}
 	cout << "输入边的个数m:" << endl;
 	cin >> m;
 	cout << "依次输入u,v及其距离g[u][v]:\n";
 	for (int i = 0; i < m; i++) {
 		cin >> u >> v >> w;
-		g[v][u] = g[u][v] =	w;
+		g[u][v] =	w;
 	}
+	//print();
 	floyd();
 	print();
 
