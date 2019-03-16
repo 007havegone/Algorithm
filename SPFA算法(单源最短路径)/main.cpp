@@ -38,6 +38,15 @@ queue<int> que;//保存待优化的结点
 
 	对于一个完全图最多有n-1个点能更新第n个点所以当进队大于n-1次就说明有负环
 	至于为什么是＞n是因为对于一个节点时候 如果还是>n－1那么任意一个单节点的图会被判定为存在负环 综合考虑取>n
+
+
+	SPFA算法优化 SLF 和 LLL：
+	SLF：Small Label First 策略，设要加入的节点是j，队首元素为i，若dist(j)<dist(i)，则将j插入队首，
+	否则插入队尾。
+	LLL：Large Label Last 策略，设队首元素为i，队列中所有dist值的平均值为x，若dist(i)>x则将i插入
+	到队尾，查找下一元素，直到找到某一i使得dist(i)<=x，则将i出对进行松弛操作。
+	引用网上资料，SLF 可使速度提高 15 ~ 20%；SLF + LLL 可提高约 50%。
+	在实际的应用中SPFA的算法时间效率不是很稳定，为了避免最坏情况的出现，通常使用效率更加稳定的Dijkstra算法。
 */
 bool SPFA() {
 	memset(dist, 63, sizeof(dist));//63即 0x3f
