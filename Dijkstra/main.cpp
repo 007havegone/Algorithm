@@ -20,7 +20,7 @@ struct Node {
 	}
 };
 
-void disjktra(int sta)
+void opt_dijkstra(int sta)
 {
 	priority_queue<Node> que;
 	que.push(Node(sta, 0));
@@ -46,6 +46,30 @@ void disjktra(int sta)
 		}
 	}
 }
+void dijkstra(int sta)
+{
+	for (int i = 1; i <= n; i++)
+		Dis[i] = INF;
+	memset(flag, 0, sizeof(flag));//初始化未访问
+	Dis[sta] = 0;
+	for (int i = 1; i <= n; i++)//n次，每次一个点
+	{
+		int mindis = INF, mark = -1;
+		for (int j = 1; j <= n; j++) {//找最近邻点
+			if (!flag[j] && Dis[j] < mindis) {
+				mindis = Dis[j];
+				mark = j;
+			}
+		}
+		if (mark == -1)break;
+		flag[mark] = 1;
+		for (int j = 1; j <= n; j++) {//松弛操作
+			if (!flag[j] && Dis[j] > Dis[mark] + mp[mark][j]) {
+				Dis[j] = Dis[mark] + mp[mark][j];
+			}
+		}
+	}
+}
 int main()
 {
 	cout << "输入城市数和路线数" << endl;
@@ -65,7 +89,7 @@ int main()
 		}
 		cout << "输入出发点" << endl;
 		cin >> sta;
-		disjktra(sta);
+		dijkstra(sta);
 		cout << "当前位置为 " << sta << endl;
 		for (int i = 1; i <= n; i++)
 			cout << "到位置 " << i << "的距离为 " << Dis[i] << endl;
