@@ -131,6 +131,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPFA算法(单源最短路�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bellman-Ford", "Bellman-Ford\Bellman-Ford.vcxproj", "{34D06EEB-3BF4-4E4F-8B6F-8231E4333350}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多源起点最短路径(Dijkstra算法)", "多源起点最短路径(Dijkstra算法)\多源起点最短路径(Dijkstra算法).vcxproj", "{71984AFA-F150-484D-929F-51B765D4D8E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -651,6 +653,14 @@ Global
 		{34D06EEB-3BF4-4E4F-8B6F-8231E4333350}.Release|x64.Build.0 = Release|x64
 		{34D06EEB-3BF4-4E4F-8B6F-8231E4333350}.Release|x86.ActiveCfg = Release|Win32
 		{34D06EEB-3BF4-4E4F-8B6F-8231E4333350}.Release|x86.Build.0 = Release|Win32
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Debug|x64.ActiveCfg = Debug|x64
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Debug|x64.Build.0 = Debug|x64
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Debug|x86.Build.0 = Debug|Win32
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Release|x64.ActiveCfg = Release|x64
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Release|x64.Build.0 = Release|x64
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Release|x86.ActiveCfg = Release|Win32
+		{71984AFA-F150-484D-929F-51B765D4D8E6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
