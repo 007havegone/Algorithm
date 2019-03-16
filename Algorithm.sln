@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旅游路线问题(MCMF最�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Floyd-Warshall", "Floyd-Warshall\Floyd-Warshall.vcxproj", "{10B85BC7-FC6B-406D-8331-7E2ECE8DD9AF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPFA算法(单源最短路径)", "SPFA算法(单源最短路径)\SPFA算法(单源最短路径).vcxproj", "{115F830D-CA4C-42DF-BFB7-9F406A92BA39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{10B85BC7-FC6B-406D-8331-7E2ECE8DD9AF}.Release|x64.Build.0 = Release|x64
 		{10B85BC7-FC6B-406D-8331-7E2ECE8DD9AF}.Release|x86.ActiveCfg = Release|Win32
 		{10B85BC7-FC6B-406D-8331-7E2ECE8DD9AF}.Release|x86.Build.0 = Release|Win32
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Debug|x64.ActiveCfg = Debug|x64
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Debug|x64.Build.0 = Debug|x64
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Debug|x86.ActiveCfg = Debug|Win32
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Debug|x86.Build.0 = Debug|Win32
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Release|x64.ActiveCfg = Release|x64
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Release|x64.Build.0 = Release|x64
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Release|x86.ActiveCfg = Release|Win32
+		{115F830D-CA4C-42DF-BFB7-9F406A92BA39}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
