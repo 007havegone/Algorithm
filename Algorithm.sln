@@ -143,6 +143,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断是否有负环(Bellm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPFA算法(邻接矩阵数组实现)", "SPFA算法(邻接矩阵数组实现)\SPFA算法(邻接矩阵数组实现).vcxproj", "{4F8F18D8-2C4B-48D3-BF93-742E361FD227}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断是否有负环(SPFA算法dfs优化)", "判断是否有负环(SPFA算法dfs优化)\判断是否有负环(SPFA算法dfs优化).vcxproj", "{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -711,6 +713,14 @@ Global
 		{4F8F18D8-2C4B-48D3-BF93-742E361FD227}.Release|x64.Build.0 = Release|x64
 		{4F8F18D8-2C4B-48D3-BF93-742E361FD227}.Release|x86.ActiveCfg = Release|Win32
 		{4F8F18D8-2C4B-48D3-BF93-742E361FD227}.Release|x86.Build.0 = Release|Win32
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Debug|x64.ActiveCfg = Debug|x64
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Debug|x64.Build.0 = Debug|x64
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Debug|x86.Build.0 = Debug|Win32
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Release|x64.ActiveCfg = Release|x64
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Release|x64.Build.0 = Release|x64
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Release|x86.ActiveCfg = Release|Win32
+		{8B779BDC-23D1-4BF0-8FE1-7A92DAEC645E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
