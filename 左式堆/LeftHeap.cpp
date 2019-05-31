@@ -2,6 +2,13 @@
 #include<iostream>
 using namespace std;
 
+struct TreeNode
+{
+	ElementType Element;
+	PriorityQueue Left;
+	PriorityQueue Right;
+	int Npl;//null path length,到一个没有两个孩子的节点的最短距离
+};
 PriorityQueue Initialize()
 {
 	return NULL;
