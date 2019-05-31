@@ -159,6 +159,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "判断是否溢出", "判�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵类", "矩阵类\矩阵类.vcxproj", "{2B0169E0-E063-4C07-810B-F775B3499A8E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "左式堆", "左式堆\左式堆.vcxproj", "{75AC5AAC-2414-4157-8603-EFA33D0ABA90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -791,6 +793,14 @@ Global
 		{2B0169E0-E063-4C07-810B-F775B3499A8E}.Release|x64.Build.0 = Release|x64
 		{2B0169E0-E063-4C07-810B-F775B3499A8E}.Release|x86.ActiveCfg = Release|Win32
 		{2B0169E0-E063-4C07-810B-F775B3499A8E}.Release|x86.Build.0 = Release|Win32
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Debug|x64.ActiveCfg = Debug|x64
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Debug|x64.Build.0 = Debug|x64
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Debug|x86.ActiveCfg = Debug|Win32
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Debug|x86.Build.0 = Debug|Win32
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Release|x64.ActiveCfg = Release|x64
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Release|x64.Build.0 = Release|x64
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Release|x86.ActiveCfg = Release|Win32
+		{75AC5AAC-2414-4157-8603-EFA33D0ABA90}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
