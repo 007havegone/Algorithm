@@ -24,8 +24,8 @@ void DP(int n, int W)
 {
 	for (int i = 1; i <= n; i++)//遍历每件商品
 	{
-		for (int j = 1; j <= W; j++) {//遍历每种价值
-			if (j < w[i])
+		for (int j = 1; j <= W; j++) {//遍历每种容量
+			if (j < w[i])//容量不足
 				c[i][j] = c[i - 1][j];
 			else
 				c[i][j] = max(c[i - 1][j], c[i - 1][j - w[i]] + v[i]);

@@ -27,7 +27,7 @@ void opt2(int n, int W) {
 	for (i = 1; i <= W; i++)
 		dp[i] = 0;
 	for ( i = 1; i <= n; i++){
-		for (j = W; j >= w[i]; j--) {//减少一次判断
+		for (j = W; j >= w[i]; j--) {//减少一次判断，同时缩小了范围
 			dp[j] = max(dp[j], dp[j - w[i]] + v[i]);
 		}
 		for (int j = 1; j <= W; j++) {
