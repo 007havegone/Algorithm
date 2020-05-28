@@ -2,7 +2,7 @@
  *Solution使用常规的归并方法，里面的B数组还可以考虑用全局变量，则不用一直
  *重新创建，节省部分时间。
  *Solution2利用了反转字符串的特性来实现O(1)归并,不需要开额外数组，最终空间内复杂度为
- *栈的深度O(logn)，时间复杂度为O(nlogn)
+ *栈的深度O(logn)，时间复杂度为O(n^2logn)
  */
 #include <iostream>
 using namespace std;
